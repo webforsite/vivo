@@ -1,5 +1,5 @@
 body {
-  font: 400 1em/1.38 'Merriweather Sans';
+  font: 400 1em/1.38 Montserrat;
   color: rgb(0, 0, 0);
 }
 
@@ -17,7 +17,7 @@ body {
 
 .page-vivo {
   background-color: rgb(255, 255, 255);
-  font-family: 'Merriweather Sans';
+  font-family: Montserrat;
   font-weight: 400;
   color: rgb(0, 0, 0);
 }
@@ -51,26 +51,32 @@ body {
   display: block;
   position: relative;
   float: left;
-  z-index: 9;
+  z-index: 8;
   width: 12%;
   height: 40px;
   margin: -52px 0 0 78%;
-  border-radius: 6px;
-  background-color: rgb(222, 222, 222);
+  border-radius: 3px;
+  background-color: #ff9900;
+  font-family: 'Merriweather Sans';
   font-size: 1em;
   font-weight: 800;
   text-align: center;
-  color: rgb(102, 0, 153);
+  color: #ffffff;
+}
+
+.assinar:hover {
+  background-color: rgb(102, 0, 153);
+  color: #ffffff;
 }
 
 .back-banner {
   position: relative;
   float: left;
   clear: both;
-  z-index: 16;
+  z-index: 15;
   width: 46%;
-  height: 97px;
-  margin: -212px 0 0 10%;
+  height: 111px;
+  margin: -319px 0 0 10%;
   background-color: rgb(222, 222, 222);
 }
 
@@ -119,12 +125,13 @@ body {
   display: block;
   position: relative;
   float: left;
-  z-index: 19;
+  z-index: 18;
   width: 20.4166666666%;
   height: 40px;
   margin: -52px 0 0 44%;
   padding: 0 10px;
   background-color: rgb(242, 242, 242);
+  font-family: 'Merriweather Sans';
   font-size: 0.813em;
   color: rgb(0, 0, 0);
 }
@@ -141,6 +148,15 @@ body {
   width: 6.8%;
   height: 25px;
   margin: 262px 0 0 3.04948%;
+}
+
+.container {
+  position: relative;
+  float: left;
+  z-index: 37;
+  width: 80%;
+  height: 354px;
+  margin: 40px 0 0 10%;
 }
 
 .copy {
@@ -165,6 +181,20 @@ body {
 
 .element {
   float: left;
+  clear: both;
+  width: 100%;
+}
+
+.esquerdo-info-texto {
+  position: relative;
+  float: left;
+  z-index: 29;
+  width: 25.5833333333%;
+  height: 184px;
+  margin: 10px 0 0 10%;
+  border: 2px solid rgb(102, 0, 153);
+  border-radius: 6px;
+  background-color: #ffffff;
 }
 
 .final_rodape {
@@ -194,8 +224,6 @@ body {
 
 .image {
   display: block;
-  position: relative;
-  float: left;
   height: auto;
   overflow: hidden;
 }
@@ -203,7 +231,7 @@ body {
 .info-menu {
   float: left;
   width: 80%;
-  height: 58px;
+  height: 17px;
   margin-left: 10%;
   background-color: #660099;
 }
@@ -225,15 +253,15 @@ body {
   overflow: hidden;
 }
 
-.meio-info {
+.meio-info-texto {
   position: relative;
   float: left;
-  clear: both;
-  z-index: 8;
-  width: 100%;
-  height: 301px;
-  margin-top: 154px;
-  background-color: rgb(250, 241, 241);
+  width: 25.5833333333%;
+  height: 184px;
+  margin-top: -184px;
+  border: 2px solid rgb(102, 0, 153);
+  border-radius: 6px;
+  background-color: #ffffff;
 }
 
 .menu {
@@ -270,6 +298,20 @@ body {
   min-height: 65px;
   font-size: 4.688em;
   text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.planos {
+  position: absolute;
+  top: 1224px;
+  left: 0;
+  right: 0;
+  z-index: 40;
+  width: 39.1666666666%;
+  min-height: 25px;
+  margin: 0 auto;
+  font-family: 'Merriweather Sans';
+  font-size: 0.75em;
   color: rgb(0, 0, 0);
 }
 
@@ -320,19 +362,26 @@ body {
   float: left;
   width: 25.5833333333%;
   height: 269px;
-  margin-top: 10px;
   border-radius: 6px;
 }
 
 .tabela-direita {
   position: relative;
   float: left;
-  z-index: 10;
+  z-index: 9;
   width: 25.5833333333%;
   height: 269px;
-  margin: 10px 0 0 1.63021%;
+  margin: -269px 0 0 64.42578%;
   border-radius: 6px;
   background-color: rgb(222, 222, 222);
+}
+
+.tabela-direita:hover {
+  background-color: #8300c6;
+}
+
+.text-6 p {
+  margin-bottom: 1em;
 }
 
 .topo {
@@ -347,10 +396,11 @@ body {
   position: relative;
   float: left;
   clear: both;
-  z-index: 20;
+  z-index: 19;
   width: 12%;
   min-height: 20px;
   margin: -44px 0 0 30.41667%;
+  font-family: 'Merriweather Sans';
   font-size: 1em;
   text-align: right;
   color: rgb(0, 0, 0);
@@ -360,10 +410,11 @@ body {
   position: relative;
   float: left;
   clear: both;
-  z-index: 11;
+  z-index: 10;
   width: 25.5833333333%;
   min-height: 22px;
   margin: -45px 0 0 37.66667%;
+  font-family: 'Merriweather Sans';
   font-size: 1em;
   text-align: center;
   color: rgb(250, 248, 248);
@@ -391,10 +442,11 @@ body {
   position: relative;
   float: left;
   clear: both;
-  z-index: 15;
+  z-index: 14;
   width: 25.6%;
   min-height: 25px;
-  margin: 15px 0 0 10%;
+  margin: 56px 0 0 10%;
+  font-family: 'Merriweather Sans';
   font-size: 1em;
   color: rgb(0, 0, 0);
 }
@@ -402,10 +454,11 @@ body {
 .y {
   position: relative;
   float: left;
-  z-index: 23;
+  z-index: 22;
   width: 25.5989583333%;
   min-height: 25px;
-  margin: 15px 0 0 1.59896%;
+  margin: 56px 0 0 1.59896%;
+  font-family: 'Merriweather Sans';
   font-size: 1em;
   color: rgb(0, 0, 0);
 }
@@ -413,10 +466,11 @@ body {
 .z {
   position: relative;
   float: left;
-  z-index: 22;
+  z-index: 21;
   width: 25.5989583333%;
   min-height: 25px;
-  margin: 15px 0 0 1.54688%;
+  margin: 56px 0 0 1.54688%;
+  font-family: 'Merriweather Sans';
   font-size: 1em;
   color: rgb(0, 0, 0);
 }
@@ -434,7 +488,6 @@ body {
 
 ._button {
   display: block;
-  font-size: 1em;
   text-align: center;
 }
 
@@ -447,6 +500,16 @@ body {
 }
 
 .banner-1 {
+  z-index: 4;
+  width: 80%;
+  height: 460px;
+  margin: 10px 0 0 10%;
+  background: url('../images/crian%C3%A7as.jpg') rgb(222, 222, 222);
+  background-size: auto auto;
+  background-position: center center;
+}
+
+.banner-2 {
   z-index: 9;
   width: 100%;
   height: 713px;
@@ -457,51 +520,38 @@ body {
   background-attachment: scroll, scroll;
 }
 
-.banner-2 {
-  z-index: 4;
-  width: 80%;
-  height: 327px;
-  margin: 10px 0 0 10%;
-  background: url('../images/crian%C3%A7as.jpg') rgb(222, 222, 222);
-  background-size: auto auto;
-  background-position: center center;
-}
-
 .element-1 {
   position: relative;
-  clear: both;
   z-index: 28;
-  width: 100%;
   height: 400px;
   margin-top: -827px;
   background-color: rgb(15, 14, 14);
 }
 
 .element-2 {
-  clear: both;
-  width: 25.6%;
-  height: 136px;
-  margin: 10px 0 0 10%;
-  border: 3px solid rgb(102, 0, 153);
-  border-radius: 6px;
-  background-color: rgb(222, 222, 222);
-}
-
-.element-3 {
-  width: 100%;
   height: 169px;
-  margin-top: 10px;
+  margin-top: 5px;
   background-color: #51007b;
 }
 
 .image-1 {
+  position: relative;
+  float: left;
+  z-index: 17;
+  width: 105px;
+  margin: -296px 0 0 41.91667%;
+}
+
+.image-2 {
+  position: relative;
+  float: left;
   clear: both;
   z-index: 10;
   width: 346px;
   margin: -582px 0 0 35.59896%;
 }
 
-.image-1:hover,
+.image-2:hover,
 .logo-2:hover {
   -webkit-transform: scaley(-1);
   -moz-transform: scaley(-1);
@@ -515,17 +565,17 @@ body {
   transition: all 0.3s;
 }
 
-.image-2 {
-  z-index: 18;
-  width: 105px;
-  margin: -197px 0 0 42.39974%;
+.image-3 {
+  position: relative;
+  float: left;
+  z-index: 13;
+  width: 95px;
+  margin: -234px 0 0 2.16146%;
 }
 
-.image-3 {
-  clear: both;
-  z-index: 14;
-  width: 95px;
-  margin: -258px 0 0 92.08203%;
+.image-4 {
+  width: 144px;
+  margin: 1628px auto 0;
 }
 
 .logo-1 {
@@ -542,7 +592,42 @@ body {
   width: 90px;
 }
 
+.meio-info-texto-1 {
+  z-index: 30;
+  margin-left: 37.21224%;
+}
+
+.meio-info-texto-2 {
+  z-index: 31;
+  margin-left: 64.42578%;
+}
+
 .separador-1 {
+  clear: both;
+  z-index: 12;
+  width: 25.5833333333%;
+  height: 2px;
+  margin: 10px 0 0 10%;
+  background-color: #660099;
+}
+
+.separador-2 {
+  z-index: 27;
+  width: 25.5833333333%;
+  height: 2px;
+  margin: 10px 0 0 1.61589%;
+  background-color: #660099;
+}
+
+.separador-3 {
+  z-index: 23;
+  width: 25.5833333333%;
+  height: 2px;
+  margin: 10px 0 0 1.63021%;
+  background-color: #660099;
+}
+
+.separador-4 {
   clear: both;
   z-index: 15;
   width: 100%;
@@ -553,55 +638,68 @@ body {
   background-position: left top;
 }
 
-.separador-2 {
-  clear: both;
-  z-index: 13;
-  width: 25.5833333333%;
-  height: 2px;
-  margin: 10px 0 0 10%;
-  background-color: #660099;
-}
-
-.separador-3 {
-  z-index: 28;
-  width: 25.5833333333%;
-  height: 2px;
-  margin: 10px 0 0 1.61589%;
-  background-color: #660099;
-}
-
-.separador-4 {
-  z-index: 24;
-  width: 25.5833333333%;
-  height: 2px;
-  margin: 10px 0 0 1.63021%;
-  background-color: #660099;
-}
-
 .tabela-1 {
   clear: both;
   z-index: 7;
-  margin-left: 10%;
-  background-color: #b5b800;
+  margin: 10px 0 0 10%;
+  background-color: #ff9900;
+}
+
+.tabela-1:hover {
+  background-color: #8cd600;
 }
 
 .tabela-2 {
-  z-index: 12;
-  margin-left: 1.63151%;
+  z-index: 11;
+  margin: -269px 0 0 37.21224%;
   background-color: #950051;
+}
+
+.tabela-2:hover {
+  background-color: #650099;
 }
 
 .text-1 {
   position: absolute;
-  top: 285px;
+  top: 319px;
   left: 10%;
-  z-index: 17;
+  z-index: 16;
   padding: 15px;
+  font-family: 'Merriweather Sans';
   font-size: 1em;
   color: #660099;
 }
 
 .text-2 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 32;
+  width: 25.5833333333%;
+  min-height: 113px;
+  margin: -212px 0 0 10%;
+  padding: 50px;
+  font-size: 2.5em;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(102, 0, 153);
+}
+
+.text-3 {
+  position: relative;
+  float: left;
+  z-index: 33;
+  width: 25.0833333333%;
+  min-height: 113px;
+  margin: -212px 0 0 37.25%;
+  padding: 50px;
+  font-size: 2.5em;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+}
+
+.text-4 {
   position: absolute;
   top: 908px;
   left: 15.1666666666%;
@@ -615,7 +713,31 @@ body {
   color: rgb(230, 230, 230);
 }
 
-.text-3 {
+.text-5 {
+  position: relative;
+  float: left;
+  z-index: 34;
+  width: 25.5833333333%;
+  min-height: 113px;
+  margin: -212px 0 0 64.34375%;
+  padding: 50px;
+  font-size: 2.5em;
+  font-weight: 700;
+  text-align: center;
+  color: #70ab00;
+}
+
+.text-6 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 35;
+  margin: -155px 0 0 14.69922%;
+  font-size: 1em;
+  color: rgb(102, 0, 153);
+}
+
+.text-7 {
   position: relative;
   float: left;
   clear: both;
@@ -637,6 +759,14 @@ body {
 }
 
 .wrapper-2 {
+  clear: both;
+  z-index: 38;
+  width: 79.9166666666%;
+  height: 349px;
+  margin: -328px 0 0 10%;
+}
+
+.wrapper-3 {
   z-index: 27;
   width: 69.6666666666%;
   height: 376px;
@@ -658,16 +788,82 @@ body {
 ._button-1 {
   position: relative;
   float: left;
+  clear: both;
+  z-index: 24;
+  width: 12%;
+  height: 25px;
+  margin: -32px 0 0 30.41667%;
+  border-radius: 3px;
+  font-size: 1em;
+  font-weight: 700;
+  color: #660099;
+}
+
+._button-2 {
+  position: relative;
+  float: left;
+  z-index: 25;
+  width: 12%;
+  height: 25px;
+  margin: -32px 0 0 44%;
+  border-radius: 3px;
+  font-size: 1em;
+  font-weight: 700;
+  color: rgb(102, 0, 153);
+}
+
+._button-3 {
+  position: relative;
+  float: left;
+  z-index: 26;
+  width: 12%;
+  height: 25px;
+  margin: -32px 0 0 57.59896%;
+  border-radius: 3px;
+  font-size: 1em;
+  font-weight: 700;
+  color: #660099;
+}
+
+._button-1:hover,
+._button-2:hover,
+._button-3:hover {
+  color: #ba0066;
+}
+
+._button-4 {
+  position: relative;
+  float: left;
   z-index: 1;
   width: 20.4166666666%;
   height: 69px;
   margin: 207px 0 0 -2796202.66667%;
   border-radius: 3px;
   background-color: rgb(222, 222, 222);
+  font-size: 1em;
   color: rgb(0, 0, 0);
 }
 
-._button-2 {
+._button-5 {
+  position: relative;
+  float: left;
+  z-index: 20;
+  width: 20.4166666666%;
+  height: 59px;
+  margin: -202px 0 0 35.58203%;
+  border-radius: 3px;
+  background-color: rgb(222, 222, 222);
+  font-family: 'Merriweather Sans';
+  font-size: 1em;
+  font-weight: 700;
+  color: rgb(102, 0, 153);
+}
+
+._button-5:hover {
+  background-color: #ff9900;
+}
+
+._button-6 {
   position: fixed;
   top: 39px;
   left: 64.4166666666%;
@@ -675,15 +871,16 @@ body {
   width: 13.5833333333%;
   height: 48px;
   background-color: rgb(222, 222, 222);
+  font-size: 1em;
   color: rgb(0, 0, 0);
 }
 
-._button-2:hover {
+._button-6:hover {
   background-color: rgba(102, 14, 0, 0.96);
   color: rgb(128, 128, 128);
 }
 
-._button-3 {
+._button-7 {
   position: fixed;
   top: 39px;
   left: 78.6666666666%;
@@ -691,68 +888,29 @@ body {
   width: 13.6158854166%;
   height: 48px;
   background-color: rgb(222, 222, 222);
+  font-size: 1em;
   color: rgb(0, 0, 0);
 }
 
-._button-3:hover {
+._button-7:hover {
   background-color: rgba(255, 35, 0, 0.96);
   color: rgb(26, 26, 26);
 }
 
-._button-4 {
-  position: relative;
-  float: left;
-  clear: both;
-  z-index: 25;
-  width: 12%;
-  height: 25px;
-  margin: -32px 0 0 10%;
-  border-radius: 3px;
-  font-family: Montserrat;
-  font-weight: 700;
-  color: #660099;
-}
-
-._button-5 {
-  position: relative;
-  float: left;
-  z-index: 26;
-  width: 12%;
-  height: 25px;
-  margin: -32px 0 0 23.59896%;
-  border-radius: 3px;
-  font-family: Montserrat;
-  font-weight: 700;
-  color: rgb(102, 0, 153);
-}
-
-._button-6 {
-  position: relative;
-  float: left;
-  z-index: 27;
-  width: 12%;
-  height: 25px;
-  margin: -32px 0 0 37.1992199999%;
-  border-radius: 3px;
-  font-family: Montserrat;
-  font-weight: 700;
-  color: #660099;
-}
-
-._button-7 {
-  position: relative;
-  float: left;
-  z-index: 21;
-  width: 20.4166666666%;
-  height: 59px;
-  margin: -107px 0 0 35.58203%;
-  border-radius: 3px;
-  background-color: rgb(222, 222, 222);
-  font-weight: 700;
-  color: rgb(102, 0, 153);
-}
-
 ._button-8 {
+  position: relative;
+  float: left;
+  z-index: 36;
+  width: 9.734375%;
+  height: 26px;
+  margin: -38px 0 0 23.59896%;
+  border-radius: 3px;
+  background-color: #650099;
+  font-size: 0.75em;
+  color: #ffffff;
+}
+
+._button-9 {
   position: relative;
   float: left;
   z-index: 23;
@@ -760,10 +918,11 @@ body {
   height: 55px;
   margin: -108px 0 0 63.58203%;
   background-color: rgb(171, 9, 9);
+  font-size: 1em;
   color: rgb(0, 0, 0);
 }
 
-._button-8:hover {
+._button-9:hover {
   background-color: rgb(0, 0, 0);
   color: rgb(128, 128, 128);
 }
@@ -889,6 +1048,34 @@ body {
   white-space: normal;
 }
 
+.planos span,
+.planos strong {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: 2.083em;
+  font-weight: 800;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: #6d2f8f;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
 .text span {
   border-top-width: 0;
   border-right-width: 0;
@@ -903,7 +1090,7 @@ body {
   background-color: transparent;
   font-family: Montserrat;
   font-style: normal;
-  font-size: 1.875em;
+  font-size: 1.563em;
   font-weight: 700;
   text-transform: inherit;
   text-decoration: inherit;
@@ -1053,15 +1240,15 @@ body {
     z-index: 11;
   }
 
-  .wrapper {
-    position: relative;
-  }
-
   ._29-04-17 {
     position: relative;
   }
 
-  .banner-1 {
+  ._html {
+    position: relative;
+  }
+
+  .banner-2 {
     position: relative;
     z-index: 9;
   }
@@ -1071,7 +1258,7 @@ body {
     z-index: 28;
   }
 
-  .image-1 {
+  .image-2 {
     position: relative;
     z-index: 10;
     height: auto;
@@ -1082,17 +1269,17 @@ body {
     height: auto;
   }
 
-  .separador-1 {
+  .separador-4 {
     position: relative;
     z-index: 15;
   }
 
-  .text-2 {
+  .text-4 {
     top: 879px;
     left: 16%;
   }
 
-  .text-3 {
+  .text-7 {
     position: relative;
     z-index: 24;
     margin-left: 30.41527%;
@@ -1104,7 +1291,7 @@ body {
     margin-left: 9.99581%;
   }
 
-  .wrapper-2 {
+  .wrapper-3 {
     z-index: 27;
     margin-left: 15.16569%;
   }
@@ -1119,13 +1306,13 @@ body {
     margin-left: 30.39849%;
   }
 
-  ._button-1 {
+  ._button-4 {
     position: relative;
     z-index: 1;
     margin-left: -2796202.68456%;
   }
 
-  ._button-8 {
+  ._button-9 {
     position: relative;
     z-index: 23;
     margin-left: 63.58012%;
@@ -1224,15 +1411,15 @@ body {
     z-index: 11;
   }
 
-  .wrapper {
-    position: relative;
-  }
-
   ._29-04-17 {
     position: relative;
   }
 
-  .banner-1 {
+  ._html {
+    position: relative;
+  }
+
+  .banner-2 {
     position: relative;
     z-index: 9;
   }
@@ -1242,7 +1429,7 @@ body {
     z-index: 28;
   }
 
-  .image-1 {
+  .image-2 {
     position: relative;
     z-index: 10;
     height: auto;
@@ -1253,17 +1440,17 @@ body {
     height: auto;
   }
 
-  .separador-1 {
+  .separador-4 {
     position: relative;
     z-index: 15;
   }
 
-  .text-2 {
+  .text-4 {
     top: 865px;
     left: 15.2%;
   }
 
-  .text-3 {
+  .text-7 {
     position: relative;
     z-index: 24;
     margin-left: 30.41518%;
@@ -1275,7 +1462,7 @@ body {
     margin-left: 10%;
   }
 
-  .wrapper-2 {
+  .wrapper-3 {
     z-index: 27;
     height: 209px;
     margin-left: 15.16518%;
@@ -1292,18 +1479,18 @@ body {
     margin-left: 22%;
   }
 
-  ._button-1 {
+  ._button-4 {
     position: relative;
     z-index: 1;
     margin-left: -2796202.85714%;
   }
 
-  ._button-3 {
+  ._button-7 {
     left: 78.7142857142%;
     width: 17.5714285714%;
   }
 
-  ._button-8 {
+  ._button-9 {
     position: relative;
     z-index: 23;
     margin-left: 63.58036%;
@@ -1416,15 +1603,15 @@ body {
     z-index: 11;
   }
 
-  .wrapper {
-    position: relative;
-  }
-
   ._29-04-17 {
     position: relative;
   }
 
-  .banner-1 {
+  ._html {
+    position: relative;
+  }
+
+  .banner-2 {
     position: relative;
     z-index: 9;
   }
@@ -1435,7 +1622,7 @@ body {
     margin-top: -967px;
   }
 
-  .image-1 {
+  .image-2 {
     position: relative;
     z-index: 10;
     height: auto;
@@ -1446,18 +1633,18 @@ body {
     height: auto;
   }
 
-  .separador-1 {
+  .separador-4 {
     position: relative;
     z-index: 15;
     margin-top: -601px;
   }
 
-  .text-2 {
+  .text-4 {
     top: 879px;
     left: 16%;
   }
 
-  .text-3 {
+  .text-7 {
     position: relative;
     z-index: 24;
     margin-left: 30.41635%;
@@ -1469,7 +1656,7 @@ body {
     margin-left: 9.99905%;
   }
 
-  .wrapper-2 {
+  .wrapper-3 {
     z-index: 27;
     width: 79.8780487804%;
     height: 235px;
@@ -1490,22 +1677,22 @@ body {
     margin-left: 9.90854%;
   }
 
-  ._button-1 {
+  ._button-4 {
     position: relative;
     z-index: 1;
     margin-left: -2796202.7439%;
   }
 
-  ._button-2 {
+  ._button-6 {
     left: 55.9999999999%;
   }
 
-  ._button-3 {
+  ._button-7 {
     left: 71.2%;
     width: 18.5975609756%;
   }
 
-  ._button-8 {
+  ._button-9 {
     position: relative;
     z-index: 23;
     margin-left: 62.83108%;
@@ -1618,15 +1805,15 @@ body {
     z-index: 11;
   }
 
-  .wrapper {
-    position: relative;
-  }
-
   ._29-04-17 {
     position: relative;
   }
 
-  .banner-1 {
+  ._html {
+    position: relative;
+  }
+
+  .banner-2 {
     position: relative;
     z-index: 9;
   }
@@ -1637,7 +1824,7 @@ body {
     margin-top: -827px;
   }
 
-  .image-1 {
+  .image-2 {
     position: relative;
     z-index: 10;
     width: 205px;
@@ -1653,18 +1840,18 @@ body {
     height: auto;
   }
 
-  .separador-1 {
+  .separador-4 {
     position: relative;
     z-index: 15;
     margin-top: -604px;
   }
 
-  .text-2 {
+  .text-4 {
     top: 706px;
     left: 15.1666666666%;
   }
 
-  .text-3 {
+  .text-7 {
     position: relative;
     z-index: 24;
     margin-left: 30.41667%;
@@ -1676,7 +1863,7 @@ body {
     margin-left: 10%;
   }
 
-  .wrapper-2 {
+  .wrapper-3 {
     z-index: 27;
     width: 69.6666666666%;
     height: 209px;
@@ -1696,24 +1883,24 @@ body {
     font-size: 2.813em;
   }
 
-  ._button-1 {
+  ._button-4 {
     position: relative;
     z-index: 1;
     margin-left: -2796202.66667%;
   }
 
-  ._button-2 {
+  ._button-6 {
     top: 46px;
     left: 16.7999999999%;
   }
 
-  ._button-3 {
+  ._button-7 {
     top: 46px;
     left: 62.8307291666%;
     width: 20.3333333333%;
   }
 
-  ._button-8 {
+  ._button-9 {
     position: relative;
     z-index: 23;
     margin-left: 62.83073%;
@@ -1822,15 +2009,15 @@ body {
     z-index: 11;
   }
 
-  .wrapper {
-    position: relative;
-  }
-
   ._29-04-17 {
     position: relative;
   }
 
-  .banner-1 {
+  ._html {
+    position: relative;
+  }
+
+  .banner-2 {
     position: relative;
     z-index: 9;
   }
@@ -1841,7 +2028,7 @@ body {
     margin-top: -897px;
   }
 
-  .image-1 {
+  .image-2 {
     position: relative;
     z-index: 10;
     width: 352px;
@@ -1857,19 +2044,19 @@ body {
     height: auto;
   }
 
-  .separador-1 {
+  .separador-4 {
     position: relative;
     z-index: 15;
     margin-top: -456px;
   }
 
-  .text-2 {
+  .text-4 {
     top: 605px;
     left: 10%;
     width: 80%;
   }
 
-  .text-3 {
+  .text-7 {
     position: relative;
     z-index: 24;
     margin-left: 30.41274%;
@@ -1880,7 +2067,7 @@ body {
     margin-top: -749px;
   }
 
-  .wrapper-2 {
+  .wrapper-3 {
     z-index: 27;
     width: 80%;
     height: 203px;
@@ -1900,25 +2087,25 @@ body {
     margin-top: -613px;
   }
 
-  ._button-1 {
+  ._button-4 {
     position: relative;
     z-index: 1;
     margin-left: -2796202.83019%;
   }
 
-  ._button-2 {
+  ._button-6 {
     top: 28px;
     left: 10%;
     width: 25.5172413793%;
   }
 
-  ._button-3 {
+  ._button-7 {
     top: 28px;
     left: 64.4%;
     width: 25.5172413793%;
   }
 
-  ._button-8 {
+  ._button-9 {
     position: relative;
     z-index: 23;
     margin-left: 62.83019%;
@@ -2033,15 +2220,15 @@ body {
     z-index: 11;
   }
 
-  .wrapper {
-    position: relative;
-  }
-
   ._29-04-17 {
     position: relative;
   }
 
-  .banner-1 {
+  ._html {
+    position: relative;
+  }
+
+  .banner-2 {
     position: relative;
     z-index: 9;
     height: 575px;
@@ -2053,7 +2240,7 @@ body {
     margin-top: -887px;
   }
 
-  .image-1 {
+  .image-2 {
     position: relative;
     z-index: 10;
     width: 269px;
@@ -2067,17 +2254,17 @@ body {
     height: auto;
   }
 
-  .separador-1 {
+  .separador-4 {
     position: relative;
     z-index: 15;
     margin-top: -445px;
   }
 
-  .text-2 {
+  .text-4 {
     top: 742px;
   }
 
-  .text-3 {
+  .text-7 {
     position: relative;
     z-index: 24;
     margin-left: 30.41016%;
@@ -2088,7 +2275,7 @@ body {
     margin-top: -701px;
   }
 
-  .wrapper-2 {
+  .wrapper-3 {
     clear: both;
     z-index: 27;
     width: 69.6223958333%;
@@ -2105,17 +2292,17 @@ body {
     z-index: 20;
   }
 
-  ._button-1 {
+  ._button-4 {
     position: relative;
     z-index: 1;
     margin-left: -2796202.70833%;
   }
 
-  ._button-3 {
+  ._button-7 {
     left: 64.3999999999%;
   }
 
-  ._button-8 {
+  ._button-9 {
     position: relative;
     z-index: 23;
     margin-left: 62.82878%;
@@ -2221,15 +2408,15 @@ body {
     z-index: 11;
   }
 
-  .wrapper {
-    position: relative;
-  }
-
   ._29-04-17 {
     position: relative;
   }
 
-  .banner-1 {
+  ._html {
+    position: relative;
+  }
+
+  .banner-2 {
     position: relative;
     z-index: 9;
   }
@@ -2240,7 +2427,7 @@ body {
     margin-top: -811px;
   }
 
-  .image-1 {
+  .image-2 {
     position: relative;
     z-index: 10;
     width: 218px;
@@ -2254,18 +2441,18 @@ body {
     height: auto;
   }
 
-  .separador-1 {
+  .separador-4 {
     position: relative;
     z-index: 15;
     margin-top: -450px;
   }
 
-  .text-2 {
+  .text-4 {
     top: 852px;
     font-size: 1.125em;
   }
 
-  .text-3 {
+  .text-7 {
     position: relative;
     z-index: 24;
     margin-left: 30.40296%;
@@ -2276,7 +2463,7 @@ body {
     margin-top: -625px;
   }
 
-  .wrapper-2 {
+  .wrapper-3 {
     clear: none;
     z-index: 27;
     width: 69.619140625%;
@@ -2296,25 +2483,25 @@ body {
     font-size: 1.875em;
   }
 
-  ._button-1 {
+  ._button-4 {
     position: relative;
     z-index: 1;
     margin-left: -2796202.89474%;
   }
 
-  ._button-2 {
+  ._button-6 {
     left: 0;
     width: 30.3124999999%;
     font-size: 0.75em;
   }
 
-  ._button-3 {
+  ._button-7 {
     left: 69.6875%;
     width: 30.625%;
     font-size: 0.75em;
   }
 
-  ._button-8 {
+  ._button-9 {
     position: relative;
     z-index: 23;
     width: 15.5263157894%;
@@ -2414,15 +2601,15 @@ body {
     z-index: 11;
   }
 
-  .wrapper {
-    position: relative;
-  }
-
   ._29-04-17 {
     position: relative;
   }
 
-  .banner-1 {
+  ._html {
+    position: relative;
+  }
+
+  .banner-2 {
     position: relative;
     z-index: 9;
   }
@@ -2432,7 +2619,7 @@ body {
     z-index: 28;
   }
 
-  .image-1 {
+  .image-2 {
     position: relative;
     z-index: 10;
     height: auto;
@@ -2444,12 +2631,12 @@ body {
     height: auto;
   }
 
-  .separador-1 {
+  .separador-4 {
     position: relative;
     z-index: 15;
   }
 
-  .text-3 {
+  .text-7 {
     position: relative;
     z-index: 24;
     margin-left: 30.40039%;
@@ -2459,7 +2646,7 @@ body {
     z-index: 31;
   }
 
-  .wrapper-2 {
+  .wrapper-3 {
     z-index: 27;
     margin-top: -344px;
     margin-left: 15.19043%;
@@ -2474,13 +2661,13 @@ body {
     z-index: 20;
   }
 
-  ._button-1 {
+  ._button-4 {
     position: relative;
     z-index: 1;
     margin-left: -2796203.125%;
   }
 
-  ._button-8 {
+  ._button-9 {
     position: relative;
     z-index: 23;
     margin-left: 62.82227%;
