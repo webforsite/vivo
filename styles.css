@@ -42,7 +42,7 @@ body {
   z-index: 25;
   width: 100%;
   height: 321px;
-  background: url('https://rawgit.com/webforsite/vivo/master/images/back-04.jpg') rgb(222, 222, 222);
+  background: url('https://rawgit.com/webforsite/vivo/master/back-04.jpg') rgb(222, 222, 222);
   background-size: cover;
   background-position: left top;
 }
@@ -204,7 +204,7 @@ body {
   z-index: 2;
   width: 100%;
   height: 653px;
-  background: url('https://rawgit.com/webforsite/vivo/master/images/footer-texture-bg.jpg') rgb(0, 0, 0);
+  background: url('https://rawgit.com/webforsite/vivo/master/footer-texture-bg.jpg') rgb(0, 0, 0);
   background-size: auto auto;
   background-position: left top;
 }
@@ -215,7 +215,7 @@ body {
   z-index: 0;
   width: 100%;
   height: 827px;
-  background: url('https://rawgit.com/webforsite/vivo/master/images/home-hero-sculpture.png') rgb(242, 237, 237);
+  background: url('https://rawgit.com/webforsite/vivo/master/home-hero-sculpture.png') rgb(242, 237, 237);
   background-repeat: no-repeat;
   background-size: auto auto;
   background-position: center top;
@@ -426,7 +426,7 @@ body {
   z-index: 11;
   width: 100%;
   height: 190px;
-  background: url('https://rawgit.com/webforsite/vivo/master/images/panel-texture(2).jpg') rgb(222, 222, 222);
+  background: url('https://rawgit.com/webforsite/vivo/master/panel-texture(2).jpg') rgb(222, 222, 222);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left top;
@@ -504,7 +504,7 @@ body {
   width: 80%;
   height: 460px;
   margin: 10px 0 0 10%;
-  background: url('https://rawgit.com/webforsite/vivo/master/images/crian%C3%A7as.jpg') rgb(222, 222, 222);
+  background: url('https://rawgit.com/webforsite/vivo/master/crian%C3%A7as.jpg') rgb(222, 222, 222);
   background-size: auto auto;
   background-position: center center;
 }
@@ -513,7 +513,7 @@ body {
   z-index: 9;
   width: 100%;
   height: 713px;
-  background: url('https://rawgit.com/webforsite/vivo/master/images/fd9ebb16dc6aa3d225565b7bc005b6aa-d4fpmy0.jpg'), url('https://rawgit.com/webforsite/vivo/master/images/back-02.jpg') rgb(13, 12, 12);
+  background: url('https://rawgit.com/webforsite/vivo/master/fd9ebb16dc6aa3d225565b7bc005b6aa-d4fpmy0.jpg'), url('https://rawgit.com/webforsite/vivo/master/back-02.jpg') rgb(13, 12, 12);
   background-repeat: no-repeat, repeat;
   background-size: contain, auto auto;
   background-position: left top, left top;
@@ -633,7 +633,7 @@ body {
   width: 100%;
   height: 156px;
   margin-top: -604px;
-  background: url('https://rawgit.com/webforsite/vivo/master/images/stars.gif') rgb(222, 222, 222);
+  background: url('https://rawgit.com/webforsite/vivo/master/stars.gif') rgb(222, 222, 222);
   background-size: auto auto;
   background-position: left top;
 }
